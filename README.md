@@ -54,8 +54,11 @@ Example Playbook
 
 ---
 - hosts: galera_cluster_nodes
+
   become: yes
+  
   roles:
+  
     - /path/mariadb-galera-cluster
 ...
 
